@@ -1,0 +1,6 @@
+  count = 0
+.loop if eq count 10 then goto end
+  print 'Count =' count
+  count = plus count 1
+  goto loop
+.end
